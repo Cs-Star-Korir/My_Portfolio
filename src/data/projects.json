@@ -1,0 +1,39 @@
+
+[
+    {
+        "name": "DataSprint 2026",
+        "description": "Participated in a one-week datathon organized by Strathmore Data Community and iLab Africa. Built a multiclass ML model predicting financial outcomes for Kenyan adults using the 2024 FinAccess Household Survey. Our team was selected to present findings.",
+        "link": "https://github.com/Meshack-pi/DataSprint",
+        "buttonLabel": "GitHub"
+    },
+    {
+        "name": "AccessMap Nairobi",
+        "description": "A React + Vite team project mapping venue accessibility across Nairobi for people with disabilities. Contributed six core components as Member B, implementing accessibility-first design principles.",
+        "link": "https://github.com/natasherr/accessmap-nairobi/tree/develop",
+        "buttonLabel": "GitHub"
+    },
+    {
+        "name": "React Portfolio",
+        "description": "A personal portfolio web application built with React.js showcasing projects, skills and contact information. Features a responsive design with smooth navigation and a project slider built using react-slick.",
+        "link": "https://github.com/Cs-Star-Korir",
+        "buttonLabel": "GitHub"
+    },
+    {
+        "name": "Carbon Markets Blog",
+        "description": "A series of blog posts for AIID Africa documenting research on Kenya's rangeland pastoralist communities and carbon markets. Writing explores how ASALs intersect with carbon credit frameworks.",
+        "link": "https://github.com/Cs-Star-Korir",
+        "buttonLabel": "Read More"
+    },
+    {
+        "name": "Stock Market App",
+        "description": "A React application built using Chart.js, Axios and React Router that fetches and visualizes stock market data from the Yahoo Finance API. Includes dynamic routing and interactive charts.",
+        "link": "https://github.com/Cs-Star-Korir",
+        "buttonLabel": "GitHub"
+    },
+    {
+        "name": "MRV Framework Report",
+        "description": "A report highlighting the events of the SMART- Cornell University and USIU students in addressing bankability of carbon credits in the rangelands",
+        "link": "https://docs.google.com/document/d/1kFPqUAXgsu6hcTaOqy44JZFplUbJv4EpZMsNcVCqxZ0/edit?tab=t.2m1frw25fa3",
+        "buttonLabel": "View Report"
+    }
+]
