@@ -3,13 +3,18 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between px-8 py-4 bg-white shadow-sm">
-      {/* Site name / logo */}
+      {/* Site name / logo - still links home */}
       <Link href="/" className="text-xl font-bold text-gray-900">
         Tonybrian
       </Link>
 
       {/* Navigation links */}
       <ul className="flex gap-6 text-gray-600">
+        <li>
+          <Link href="/" className="hover:text-gray-900">
+            Home
+          </Link>
+        </li>
         <li>
           <Link href="/about" className="hover:text-gray-900">
             About
