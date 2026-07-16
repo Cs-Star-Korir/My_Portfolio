@@ -19,12 +19,7 @@
         "buttonLabel": "GitHub"
     },
     {
-        "name": "Carbon Markets Blog",
-        "description": "A series of blog posts for AIID Africa documenting research on Kenya's rangeland pastoralist communities and carbon markets. Writing explores how ASALs intersect with carbon credit frameworks.",
-        "link": "https://docs.google.com/docuament/d/1LnNTGYvFj57JXcOwrp5-9xQfsYX2a-GXZ1fZJdObjCY/edit?tab=t.0#heading=h.17ug0w7kqj2q",
-        "buttonLabel": "Read More"
-    },
-    {
+    
         "name": "Stock Market App",
         "description": "A React application built using Chart.js, Axios and React Router that fetches and visualizes stock market data from the Yahoo Finance API. Includes dynamic routing and interactive charts.",
         "link": "https://github.com/Cs-Star-Korir",
