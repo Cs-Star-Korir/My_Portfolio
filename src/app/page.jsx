@@ -6,7 +6,7 @@ export default function Home() {
       <img
         src="/Sir Korir.jpg"
         alt="Tonybrian"
-        className="w-32 h-32 rounded-full object-cover mb-6"
+        className="w-80 h-80 rounded-full object-cover mb-6"
       />
 
       <p className="text-sm text-warmgray mb-2">ICT & Computer Science Student</p>

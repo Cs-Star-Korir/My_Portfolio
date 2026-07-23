@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin , FaMedium} from "react-icons/fa";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -13,8 +13,11 @@ export default function Footer() {
           <a href="https://www.linkedin.com/in/tony-brian-kiprotich/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-warmgray hover:text-clay transition-colors">
             <FaLinkedin size={22} />
           </a>
+          <a href ="https://medium.com/@briantony942" target="_blank" rel="noopener noreferrer" arial-label="Medium" className="text-warmgray hover:text-clay transition-colors">
+            <FaMedium size={22} />
+          </a>
         </div>
-        <p className="text-sm text-warmgray">© {year} Tonybrian. All rights reserved.</p>
+        <p className="text-sm text-warmgray">© {year} <a href ="/"> Tonybrian.</a> All rights reserved.</p>
       </div>
     </footer>
   );

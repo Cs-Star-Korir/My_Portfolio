@@ -22,13 +22,13 @@
     
         "name": "Stock Market App",
         "description": "A React application built using Chart.js, Axios and React Router that fetches and visualizes stock market data from the Yahoo Finance API. Includes dynamic routing and interactive charts.",
-        "link": "https://github.com/Cs-Star-Korir",
+        "link": "https://github.com/Cs-Star-Korir//Stock_Market_React_app",
         "buttonLabel": "GitHub"
     },
     {
         "name": "MRV Framework Report",
         "description": "A report highlighting the events of the SMART- Cornell University and USIU students in addressing bankability of carbon credits in the rangelands",
-        "link": "https://docs.google.com/document/d/1kFPqUAXgsu6hcTaOqy44JZFplUbJv4EpZMsNcVCqxZ0/edit?tab=t.2m1frw25fa3",
+        "link": "https://docs.google.com/document/d/1kFPqUAXgsu6hcTaOqy44JZFplUbJv4EpZMsNcVCqxZ0/edit?tab=t.zhuyvlqmsrnw#heading=h.es6thggj75pz",
         "buttonLabel": "View Report"
     }
 ]
