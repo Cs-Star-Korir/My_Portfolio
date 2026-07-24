@@ -49,13 +49,13 @@ export default function About() {
               />
 
               <img
-                src="/hiking.jpg"
+                src="/SU.jpg"
                 alt="Tonybrian hiking"
                 className="w-full h-full object-cover rounded-2xl row-span-3 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl"
               />
 
               <img
-                src="/running.jpg"
+                src="/hiking.jpg"
                 alt="Tonybrian running"
                 className="w-full h-full object-cover rounded-2xl row-span-2 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl"
               />
@@ -113,7 +113,7 @@ export default function About() {
             </p>
 
             <img
-              src="/carbon.jpg"
+              src="Carbon.jpg"
               alt="Carbon sustainability team"
               className="w-full h-[240px] object-cover rounded-2xl transition-all duration-300 hover:scale-[1.01] hover:shadow-xl"
             />
