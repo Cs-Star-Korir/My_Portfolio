@@ -12,16 +12,18 @@ export default function Blog() {
       <div className="flex flex-col gap-6">
         {blogPosts.map((post) => (
           
-           <a key={post.title}
+          <a  key={post.title}
             href={post.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="block border-b border-warmgray/20 pb-6 hover:opacity-75 transition-opacity"
+            className="group block border-b border-clay/20 pb-6"
           >
-            <h2 className="text-lg font-semibold text-foreground mb-1">
+            <h2 className="text-lg font-semibold text-foreground  mb-1">
               {post.title}
             </h2>
-            <p className="text-warmgray">{post.summary}</p>
+            <p className="text-warmgray group-hover:text-clay transition-colors">
+              {post.summary}
+            </p>
           </a>
         ))}
       </div>
