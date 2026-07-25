@@ -30,7 +30,7 @@ export default function About() {
           {/* Athletics */}
           <div className="mb-16">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
-              🏃 Athletics & Hiking
+              Athletics & Hiking
             </h3>
 
             <p className="text-lg leading-8 text-warmgray mb-8">
@@ -55,7 +55,7 @@ export default function About() {
               />
 
               <img
-                src="/hiking.jpg"
+                src="running.jpg"
                 alt="Tonybrian running"
                 className="w-full h-full object-cover rounded-2xl row-span-2 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl"
               />
@@ -65,13 +65,19 @@ export default function About() {
                 alt="Tonybrian hiking"
                 className="w-full h-full object-cover rounded-2xl row-span-2 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl"
               />
+              <img
+                src="hiking.jpg"
+                alt="Tonybrian running"
+                className="w-full h-full object-cover rounded-2xl row-span-1 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl"
+              />
+
             </div>
           </div>
 
           {/* Guitar */}
           <div className="mb-16">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
-              🎸 Learning Guitar
+               Learning Guitar
             </h3>
 
             <p className="text-lg leading-8 text-warmgray">
@@ -85,7 +91,7 @@ export default function About() {
           {/* Work Study */}
           <div className="mb-16">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
-              💼 Professional Experience
+              Professional Experience
             </h3>
 
             <p className="text-lg leading-8 text-warmgray">
@@ -100,7 +106,7 @@ export default function About() {
           {/* Sustainability */}
           <div>
             <h3 className="text-2xl font-semibold text-foreground mb-4">
-              🌍 Building Technology for Impact
+              Building Technology for Impact
             </h3>
 
             <p className="text-lg leading-8 text-warmgray mb-8">

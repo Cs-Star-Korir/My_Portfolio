@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center text-center px-6 py-20">
       <img
-        src="/Sir Korir.jpg"
+        src="Korir.jpg"
         alt="Tonybrian"
         className="w-80 h-80 rounded-full object-cover mb-6"
       />
 
-      <p className="text-sm text-warmgray mb-2">ICT & Computer Science Student</p>
+      <p className="text-sm text-warmgray mb-2">Computer Science Student</p>
 
       <h1 className="text-4xl font-bold text-foreground mb-4">
         Hey, I&apos;m Tonybrian
