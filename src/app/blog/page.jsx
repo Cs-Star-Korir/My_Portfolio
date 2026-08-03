@@ -5,8 +5,12 @@ export default function Blog() {
     <main className="max-w-2xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-foreground mb-4">Blog</h1>
       <p className="text-warmgray mb-8">
-        Writing on carbon markets, climate finance, and pastoral resilience —
-        part of my work with AIID-Africa.
+        Writing on carbon markets, climate finance, and pastoral resilience — co-authored with {" "}
+        <a href="https://www.linkedin.com/in/adho-yattani-580206280/" 
+           target="_blank"
+           rel="noreferrer noopener"
+           className="underline hover:text-clay transition colors"
+        >Adho Elle</a> {" "} as part of my work with AIID-Africa.
       </p>
 
       <div className="flex flex-col gap-6">
