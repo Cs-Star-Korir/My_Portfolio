@@ -4,9 +4,11 @@ import { useState } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 import ThemeToggle from "./ThemeToggle";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname(); // 1. Added hook to track current path
 
   const links = [
     { href: "/", label: "Home" },
@@ -28,7 +30,12 @@ export default function Navbar() {
         <ul className="hidden sm:flex gap-6 text-warmgray text-base items-center">
           {links.map((link) => (
             <li key={link.href}>
-              <Link href={link.href} className="hover:text-clay transition-colors">
+              <Link
+                href={link.href}
+                className={`hover:text-clay transition-colors ${
+                  pathname === link.href ? "text-clay font-medium" : ""
+                }`}
+              >
                 {link.label}
               </Link>
             </li>
@@ -58,7 +65,9 @@ export default function Navbar() {
               <Link
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="block py-2 hover:text-clay transition-colors"
+                className={`block py-2 hover:text-clay transition-colors ${
+                  pathname === link.href ? "text-clay font-medium" : ""
+                }`}
               >
                 {link.label}
               </Link>
