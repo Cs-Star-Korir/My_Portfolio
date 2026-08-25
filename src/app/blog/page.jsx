@@ -10,7 +10,9 @@ export default function Blog() {
            target="_blank"
            rel="noreferrer noopener"
            className="underline hover:text-clay transition colors"
-        >Adho Elle</a> {" "} as part of my work with AIID-Africa.
+        >Adho Elle</a> and Enock Mobisa
+        
+        {" "} as part of my work with AIID-Africa.
       </p>
 
       <div className="flex flex-col gap-6">
